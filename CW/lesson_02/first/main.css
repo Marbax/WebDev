@@ -1,0 +1,66 @@
+*{
+    border-radius: 15px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+div{
+    border: 1px solid coral;
+}
+
+#secondH{
+    color: green;
+}
+#thirdH{
+    color: purple;
+}
+
+.h2style{
+    color: rosybrown;
+}
+
+.list{
+    font-size: 18px;
+    background-color: whitesmoke;
+    color: brown;
+}
+
+.list li:before{
+    content: counter(my-awesome-counter);
+    background-color: gainsboro;
+    margin: 5px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10px;
+    box-shadow: 2px 2px 4px 1px black;
+}
+
+.checked{
+    color: green;
+}
+
+.ico{
+    width: 25px;
+}
+
+.txt{
+    font-size: 24px;
+    color: blue;
+    text-align: center;
+}
+
+.txt:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: rotate(90);
+}
+
+.txt .cb:checked{
+    color: yellow;
+}

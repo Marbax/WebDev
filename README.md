@@ -13,3 +13,19 @@
 ---
 
 </p></details>
+
+<details><summary> 2.CSS tricks.  </summary><p>
+
+[Site with html docu](https://html5book.ru/ "https://html5book.ru/")
+
+[CSS tricks](https://css-tricks.com/ "https://css-tricks.com/")   
+
+[Mozzilla docs](https://developer.mozilla.org/ru/ "https://developer.mozilla.org/ru/")   
+
+---
+
+[CSS lesson example](CW/lesson_02/second "CW\lesson_02\second")   
+
+---
+
+</p></details>
