@@ -1,0 +1,30 @@
+.pinkList{
+    list-style: none;
+    counter-reset: pinkListCounter;
+    background-color: #ed9eae;
+    font-size: 24px;
+    color: #f5f5d9;
+    padding: 15px 15px;
+    margin: 5px;
+}
+
+.pinkList li{
+    counter-increment:pinkListCounter;
+    background-color: #c66376;
+    margin: 15px;
+    padding: 8px;
+}
+
+.pinkList li:before{
+    content: counter(pinkListCounter)'.';
+    background-color: #c66376;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+
+}
+
+.pinkList li span{
+    background-color: #9e354a;
+    padding: 8px 20px;
+}

@@ -1,0 +1,76 @@
+.toDoListStyle {
+    list-style: none;
+    background-color: #f5f5f5;
+    padding: 15px 25px;
+}
+
+.toDoListStyle li {
+    padding: 15px;
+}
+
+.toDoListStyle li:nth-child(even) {
+    background-color: #a5ccda;
+}
+
+.toDoListStyle li:nth-child(odd) {
+    background-color: #add8e6;
+}
+
+.toDoListStyle li::after {
+    content: "\2718";
+    color: red;
+    margin: 0px 5px 0px 25px;
+}
+
+/* Checkbox */
+
+/* inactive #e2e2e2 */
+
+/* Customize the label (the container) */
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 55px;
+    margin-left: 20px;
+    padding-top: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    height: 16px;
+    width: 16px;
+    background-image: url(img/unchecked_16.png);
+}
+
+/* When the checkbox is checked, change image */
+
+.container input:checked~.checkmark {
+    background-image: url(img/checked_16.png);
+    background-repeat: no-repeat;
+}
+
+.container input:checked~.checkmark+.liText {
+    text-decoration: line-through;
+    /*background-color: #e2e2e2;*/
+}

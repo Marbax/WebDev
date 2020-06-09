@@ -67,4 +67,5 @@ input[type=checkbox]:checked + .inText {
 .inText{
     width: auto;
     background-color: plum;
+    display: inline-block;
 }
