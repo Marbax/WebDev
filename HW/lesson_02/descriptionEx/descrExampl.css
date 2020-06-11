@@ -1,0 +1,21 @@
+.descBlock {
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+.descBlock a {
+    text-decoration: none;
+    color: rgb(15, 15, 155);
+}
+
+.descBlock dd {
+    color: #8d8e8f;
+    margin-left: 0;
+}
+
+.descBlock dd b{
+    color: #797977;
+}
+.descBlock p {
+    font-style: italic;
+}
