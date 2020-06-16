@@ -29,3 +29,15 @@
 ---
 
 </p></details>
+
+<details><summary> 3.Navigation.  </summary><p>
+
+---
+
+[Navigation menu basics](CW/lesson_03/ "CW\lesson_03\")   
+
+[Murkup basics](HW/lesson_03/ "HW\lesson_03\")   
+
+---
+
+</p></details>

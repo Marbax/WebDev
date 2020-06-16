@@ -1,0 +1,40 @@
+html, body {
+    background-color: rgb(87, 82, 82);
+}
+
+.fridgeList {
+    color: black;
+    background-color: #f6f6f6;
+    font-size: 1em;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 18px;
+}
+
+.productList {}
+
+.productsList .product {
+    border: 2.5px solid #dfdfdf;
+    height: 140px;
+    width: 130px;
+    border-radius: 30px;
+    margin: 14px 4px;
+    display: inline-table;
+    padding: 20px 0 0 0;
+    align-items: center;
+}
+
+.product .productImage {
+    height: 80px;
+    width: 80px;
+}
+
+.product .productName {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.comment {
+    border-top: 1.5px solid #dfdfdf;
+    padding: 8px;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: rgb(87, 82, 82);
+}
+
+main {
+    background-color: #f5f5f5;
+    padding: 25px;
+}
+
+/**/
+
+/* menu style*/
+
+.verticalMenu {
+    width: 250px;
+}
+
+.verticalMenu .menuItem {
+    font-family: sans-serif;
+    display: block;
+    width: 250px;
+    background-color: #808080;
+    text-transform: uppercase;
+}
+
+.verticalMenu .menuItem a {
+    display: block;
+    color: #ecf5f5;
+    text-decoration: none;
+}
+
+.verticalMenu .menuItem a img {
+    width: 75px;
+    padding-left: 15px;
+    margin-bottom: -30px;
+}
+
+.verticalMenu .menuItem a span {
+    display: inline-block;
+    padding: 35px 0px 30px 30px;
+}
+
+.verticalMenu .menuItem a:hover {
+    transition: 600ms;
+    background-color: #5e5e5e;
+}
