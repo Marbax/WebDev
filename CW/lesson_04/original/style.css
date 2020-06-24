@@ -1,0 +1,111 @@
+.kv {
+    width:500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.kv div {
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+#upbtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: lightcoral;
+
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#upbtn a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.kv .a1 {
+    background-color: red;
+}
+.kv .a2 {
+    background-color: orange;
+    left: 50px;
+    position: absolute;
+}
+.kv .a3 {
+    position: relative;
+    background-color: green;
+    z-index: 100;
+}
+
+#r {
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    width: 200px;
+    padding: 20px;
+    opacity: 0.5;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tbl {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+.tbl td, th {
+    border: 2px solid black;
+    text-align: center;
+    height: 30px;
+    font-family: sans-serif;
+    width: 25%;
+}
+
+.tbl thead {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.tbl tbody tr {
+    background-color: limegreen;
+}
+
+.tbl tbody tr:nth-child(2n + 1) {
+    background-color: lightcoral;
+}
+
+.tbl tbody tr:first-child {
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+}
+
+.tbl tbody tr:hover {
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    transition: 1s;
+}
