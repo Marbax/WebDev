@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStylesLib.css">
+    <title>Styles showcase</title>
+</head>
+
+<body>
+
+    <main>
+        <div>
+            <h2>Inputs</h2>
+            <input class="simpleTB" type="text" placeholder="Enter some text">
+            <input class="simpleTB" type="text" required pattern="valid text| " value="valid text">
+            <input class="simpleTB" type="text" required pattern="valid text| " value="invalid text">
+        </div>
+        <div>
+            <h2>Check boxes <dd>(with strange reversed states)</dd>
+            </h2>
+            <input id="CB1" class="simpleCB" type="checkbox">
+            <label for="CB1">Subscribe</label>
+            <input id="CB2" class="simpleCB" type="checkbox" checked>
+            <label for="CB2">Subscribe</label>
+        </div>
+        <div>
+            <h2>Radio buttons</h2>
+            <label style="vertical-align: super;">Gender: </label>
+            <input id="rMale" class="simpleRadio" type="radio" name="gender" checked>
+            <label for="rMale">Male</label>
+            <input id="rFemale" class="simpleRadio" type="radio" name="gender">
+            <label for="rFemale">Female</label>
+        </div>
+        <div>
+            <h2>Buttons</h2>
+            <button class="btn greenBtn">Active</button>
+            <button class="btn greenBtn">Hover</button>
+            <button class="btn redBtn">Danger</button>
+            <button class="btn redBtn">Hover</button>
+            <button class="btn greenBtn" disabled>Disabled</button>
+            <button class="btn roundBtn greenBtn">+</button>
+            <button class="btn roundBtn redBtn">-</button>
+        </div>
+        <div>
+            <h2>Text area</h2>
+            <textarea class="transTA" name="" id="" cols="70" rows="5.5" placeholder=" Enter some text..."></textarea>
+        </div>
+    </main>
+
+</body>
+
+</html>

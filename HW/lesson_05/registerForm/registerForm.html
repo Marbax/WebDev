@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="registerFormStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form class="registerForm" action="">
+        <div class="rfInner">
+            <div class="regData">
+                <h2>Registration form</h2>
+                <div class="uName">
+                    <label for="uNameTB"></label>
+                    <input type="text" name="" id="uNameTB" placeholder="Username">
+                </div>
+                <div class="eAddress">
+                    <label for="eAddressTB"></label>
+                    <input type="email" name="" id="eAddressTB" placeholder="Email address">
+                </div>
+                <div class="passwd">
+                    <label for="passTB"></label>
+                    <input id="passTB" type="password" placeholder="Password">
+                    <input id="passRepeat" type="password" placeholder="Confirm password">
+                </div>
+            </div>
+            <div class="persData">
+                <h2>Personal details</h2>
+                <div class="fName">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="genderDate">
+                    <select name="" id="genderSel">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Another">Another</option>
+                    </select>
+                    <input id="dateSel" type="date" placeholder="mm/dd/yy">
+                </div>
+            </div>
+            <div class="subData">
+                <div>
+                    <input id="spamAcc" type="checkbox">
+                    <label for="spamAcc">I want to receive news and special offers</label>
+                </div>
+                <div>
+                    <input id="termsAgree" type="checkbox">
+                    <label for="termsAgree">I agree with the Terms and Conditions</label>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

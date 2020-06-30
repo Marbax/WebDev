@@ -1,0 +1,229 @@
+:root {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+::placeholder {
+    color: rgb(70, 70, 70);
+}
+
+.registerForm {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px 17px;
+    background-color: #F5F5F5;
+}
+
+.registerForm>div {
+    border-bottom: .2px solid rgba(0, 0, 0, 0.062);
+}
+
+.registerForm>div>div {
+    margin: 24px 25px;
+}
+
+.registerForm>div>div>div {
+    margin: 25px 0;
+}
+
+.registerForm h2 {
+    font-size: 1.2em;
+    font-weight: 540;
+    cursor: default;
+}
+
+.registerForm label {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 0.8em;
+    vertical-align: baseline;
+    margin: 0;
+}
+
+.registerForm .uName label {
+    content: url(img/username.png);
+    width: 25px;
+    height: 25px;
+}
+
+.registerForm .passwd label {
+    content: url(img/pswd.png);
+    width: 25px;
+    height: 25px;
+}
+
+.registerForm .eAddress label {
+    content: url(img/email.png);
+    width: 25px;
+    height: 25px;
+}
+
+.registerForm input, .registerForm select {
+    outline: none;
+    border: 1px solid gray;
+    border-width: 0 0 1px 0;
+    background-color: #F5F5F5;
+    padding: 5px 15px;
+}
+
+.registerForm input[type="submit"] {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    background-color: #008B8B;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.registerForm input[type="submit"]:hover {
+    background-color: rgb(0, 104, 104);
+}
+
+.registerForm input[type="checkbox"] {
+    background-color: gray;
+    border-color: green;
+    margin-right: 5px;
+}
+
+@media all and (min-width: 900px) {
+    .registerForm {
+        width: 900px;
+        height: 460px;
+    }
+    .registerForm .regData, .registerForm .persData {
+        display: inline-table;
+        margin: 25px 0 0 35px;
+        width: 412px;
+    }
+    #uNameTB, #eAddressTB {
+        width: 345px;
+    }
+    .passwd input, .persData input, .persData select {
+        width: 149px;
+        margin: 7px 10px 0 0;
+    }
+    #genderSel {
+        width: 180px;
+    }
+    #dateSel {
+        margin-top: -12px;
+        width: 150px;
+    }
+    .registerForm .rfInner .subData {
+        margin: 15px 35px 30px 35px;
+    }
+    .registerForm .rfInner .subData>div {
+        margin: 7px 0;
+    }
+    .registerForm input[type="submit"] {
+        margin: 35px 8px 30px 79%;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 900px) {
+    .registerForm {
+        width: 735px;
+        height: 775px;
+    }
+    .registerForm .regData, .registerForm .persData {
+        display: inline-table;
+        margin: 30px 0 0 42px;
+        width: 700px;
+    }
+    #uNameTB, #eAddressTB {
+        width: 596px;
+        margin: 20px 0 0 0;
+    }
+    .passwd input, .persData input, .persData select {
+        width: 274px;
+        margin: 14px 12px 8px 0;
+    }
+    .persData input {
+        width: 290px;
+    }
+    .registerForm .uName label, .registerForm .passwd label, .registerForm .eAddress label {
+        width: 30px;
+        height: 30px;
+    }
+    #genderSel {
+        width: 320px;
+    }
+    #dateSel {
+        width: 285px;
+        margin-left: 8px;
+    }
+    .registerForm .rfInner .subData {
+        margin: 15px 35px 40px 35px;
+    }
+    .registerForm .rfInner .subData>div {
+        margin: 8px 9px;
+    }
+    .registerForm input[type="submit"] {
+        margin: 45px 8px 30px 71%;
+        width: 175px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    :root {
+        font-size: 1.2em;
+    }
+    ::placeholder {
+        font-size: 1.2em;
+    }
+    .registerForm {
+        width: 480px;
+        height: 980px;
+    }
+    .registerForm .uName label, .registerForm .passwd label, .registerForm .eAddress label {
+        width: 30px;
+        height: 30px;
+    }
+    .registerForm .regData, .registerForm .persData {
+        display: inline-table;
+        margin: 25px 0 0 42px;
+        width: 400px;
+    }
+    .registerForm input {
+        padding-bottom: 8px;
+    }
+    #uNameTB, #eAddressTB {
+        width: 330px;
+        margin: 20px 0 0 0;
+    }
+    .registerForm #passRepeat {
+        margin: 20px 0 0 32px;
+    }
+    .passwd input, .persData input, .persData select {
+        width: 330px;
+        margin: 10px 0 8px 0;
+    }
+    .persData input, .persData select {
+        margin: 24px 0 8px 0;
+    }
+    .persData input {
+        width: 365px;
+    }
+    #genderSel {
+        width: 394px;
+        margin: 0;
+        font-size: .9em;
+    }
+    #dateSel {
+        width: 365px;
+        font-size: .9em;
+        margin-top: 28px;
+    }
+    .registerForm .rfInner .subData {
+        margin: 24px 35px 40px 35px;
+    }
+    .registerForm .rfInner .subData>div {
+        margin: 8px 9px;
+    }
+    .registerForm input[type="submit"] {
+        margin: 45px 8px 30px 54%;
+        width: 180px;
+    }
+}

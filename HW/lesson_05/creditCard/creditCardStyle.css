@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+:root{
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.creditCard{
+    display: inline-block;
+    width: 700px;
+    height: 485px;
+    margin: 30px 70px;
+    background-image: url(img/moon_flag.png);
+    background-repeat: no-repeat;
+    background-position: right -120px bottom -100px;
+    background-size: 400px;
+    background-color: #9FCDCD;
+    border-radius: 15px;
+    color: #466C6F;
+}
+
+.creditCard > div{
+    padding: 30px 0 0 32px;
+}
+
+
+.creditCard .cHeader{
+    display: inline-block;
+    background-color: #DB6423;
+    color: white;
+    margin-top: 37px;
+    margin-left: -25px;
+    width: 490px;
+    padding: 13px 0 13px 64px;
+    font-size: 0.8em;
+}
+
+.cHeader h2{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.creditCard label{
+    font-size: .9em;
+    display: block;
+}
+
+
+.creditCard input{
+    background-color: #A9D2D2;
+    color: #466C6F;
+    font-size: 1.2em;
+    margin-top: 14px;
+    outline: none;
+}
+
+.creditCard input{
+    transition: .4s;
+    border-bottom-width: 2px;
+    padding: 12px;
+    border-color: #466C6F;
+}
+
+.creditCard input:focus{
+    transition: .4s;
+    border-bottom-width: 6px;
+    padding-bottom: 8px;
+    border-color: #DB6423;
+}
+
+::placeholder{
+    color: #799FA0;
+}
+
+
+.cNumber input , .cName input{
+    width: 360px;
+}
+
+.cSecurity input{
+    width: 93px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.creditCard input::-webkit-outer-spin-button,
+.creditCard input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.creditCard input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.cSecurity > div{
+    display: inline-block;
+    margin-right: 12px;
+}
