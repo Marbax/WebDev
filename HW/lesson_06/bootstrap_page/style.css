@@ -1,0 +1,36 @@
+#jumbotron {
+    background-color: #FFFFFF;
+    padding: 6rem 1rem 5rem 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+#jumbotron h1 {
+    font-weight: 200;
+}
+
+#jumbotron>div {
+    margin-top: 3.5rem;
+    max-width: 40rem;
+}
+
+#footer {
+    padding: 3rem 0;
+    line-height: .7rem;
+}
+
+.image-container {
+    margin-left: -1px;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.card-body p {
+    line-height: 0.7rem;
+}
+
+.card-body .card-text {
+    font-weight: bold;
+}
