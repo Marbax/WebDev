@@ -80,7 +80,7 @@
 </p></details>
 
 
-<details><summary> 6.Ending. </summary><p>
+<details><summary> 6.Static Pages Ending. </summary><p>
 
 ### Exam theme:
 - Сайт 4-5 странниц.
@@ -92,6 +92,32 @@
 [cards , bootstrap usability example](CW/lesson_06/intro_Bootstrap "CW\lesson_06\intro_Bootstrap")   
 
 [boostrap template page usability](HW/lesson_06/bootstrap_page "HW\lesson_06\bootstrap_page")   
+
+---
+
+</p></details>
+
+
+<details><summary> 7.JS. </summary><p>
+
+> - NetScape разработал в 90х , использовался сначала для написания клиентских сценариев
+> - Веб , Десктоп , игры , покрывает все
+> - Язык с динамической типизацией , тип данных переменных определяется во время выполнения
+> - Точку с запятой ставить не обязательно
+> - `===` проверяет на равенство без приведения типов , `==` пытается привести типы ,а потом сравнить
+> - `if` скобки должны быть обязательно ,даже если только одна строка
+> - `a = 10` обьявление в глобальной области видимости , `var a = 10` обьявление в области видимости ф-и , `let a = 10` обьявление в локальной области видимости(как обычно в языках)
+> - `2**5` возведение в степень
+> - `prompt` запрос ввода пользователя
+> - В ф-ю не обязательно передавать все параметры 
+> - Строка обьявляется тремя способами : `"str"`, `'str'` , ``str`` (символов нет)
+
+
+---
+
+[js intro example](CW/lesson_07/ "CW\lesson_07\")   
+
+[js few functions with time , intro example](HW/lesson_07/script.js "HW\lesson_07\script.js")   
 
 ---
 

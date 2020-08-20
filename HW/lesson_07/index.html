@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <h4>Принимает 2 числа и возвращает -1, если первое меньше, чем второе; 1 – если первое больше, чем второе; и 0 –
+            если числа равны.</h2>
+            <input id="firstValue" type="number">
+            <input id="secondValue" type="number">
+            <input id="taskOne" type="button" value="Check values"
+                onclick="comparerResult.value=myComparer(firstValue.value,secondValue.value)">
+            <input id="comparerResult" type="number" disabled>
+    </div>
+
+    <div>
+        <h4>Вычисляет факториал числа</h4>
+        <input id="factIn" type="number">
+        <input id="taskTwo" type="button" value="Find Factorial" onclick="factRes.value = findFactorial(factIn.value)">
+        <input id="factRes" type="number" disabled>
+    </div>
+
+    <div>
+        <h4>Принимает три отдельные цифры и превращает их в одно число</h4>
+        <input id="firstNum" type="number">
+        <input id="secondNum" type="number">
+        <input id="thirdNum" type="number">
+        <input id="taskThree" type="button" value="Concatenate numbers"
+            onclick="numStr.value = threeNumsToString(firstNum.value,secondNum.value ,thirdNum.value)">
+        <input id="numStr" type="number" disabled>
+    </div>
+
+    <div>
+        <h4>Принимает длину и ширину прямоугольника и вычисляет его площадь. Если в функцию передали 1 параметр, то она
+            вычисляет площадь квадрата.</h4>
+        <label for="rectWidth">Width</label>
+        <input id="rectWidth" type="number">
+        <label for="rectHeight">Height</label>
+        <input id="rectHeight" type="number">
+        <input id="taskFour" type="button" value="Find area"
+            onclick="rectArea.value = findRectArea(rectWidth.value,rectHeight.value)">
+        <input id="rectArea" type="number" disabled>
+    </div>
+
+    <div>
+        <h4>Проверяет, является ли число совершенным.</h4>
+        <input id="numberToCheck" type="number">
+        <input id="taskFive" type="button" value="Check number"
+            onclick="isPerfectNum.value = isPerfectNumber(numberToCheck.value)">
+        <input id="isPerfectNum" type="text" disabled>
+    </div>
+
+    <div>
+        <h4>Выводит только те числа из диапазона, которые являются совершенными.</h4>
+        <label for="rangeStart">Range start</label>
+        <input id="rangeStart" type="number">
+        <label for="rangeEnd">Range end</label>
+        <input id="rangeEnd" type="number">
+        <input id="taskSix" type="button" value="Get numbers"
+            onclick="arrayOfPerfectNums.value = getPerfectNumbersInRange(rangeStart.value,rangeEnd.value)">
+        <input id="arrayOfPerfectNums" type="text" disabled>
+    </div>
+
+    <div>
+        <h4>Принимает время (часы, минуты, секунды) и выводит его на экран в формате «чч:мм:сс».</h4>
+        <label for="hoursIn">Hours</label>
+        <input id="hoursIn" type="number">
+        <label for="minutesIn">Minutes</label>
+        <input id="minutesIn" type="number">
+        <label for="secondsIn">Seconds</label>
+        <input id="secondsIn" type="number">
+        <input id="taskSeven" type="button" value="Convert to Time"
+            onclick="timeOut.value = toTime(hoursIn.value,minutesIn.value,secondsIn.value)">
+        <input id="timeOut" type="text" disabled>
+    </div>
+
+    <div>
+        <h4>Принимает часы, минуты и секунды и возвращает это время в секундах</h4>
+        <label for="hoursInTos">Hours</label>
+        <input id="hoursInTos" type="number">
+        <label for="minutesInTos">Minutes</label>
+        <input id="minutesInTos" type="number">
+        <label for="secondsInTos">Seconds</label>
+        <input id="secondsInTos" type="number">
+        <input id="taskEight" type="button" value="Convert to Seconds"
+            onclick="secondsOut.value = timeToSeconds(hoursInTos.value,minutesInTos.value,secondsInTos.value)">
+        <input id="secondsOut" type="number" disabled>
+    </div>
+
+    <div>
+        <h4>Принимает количество секунд, переводит их в часы, минуты и секунды и возвращает в виде строки «чч:мм:сс»
+        </h4>
+        <label for="secondsInToTime">Seconds</label>
+        <input id="secondsInToTime" type="number">
+        <input id="taskNine" type="button" value="Convert to Time"
+            onclick="timeFromSeconds.value = secondsToTime(secondsInToTime.value)">
+        <input id="timeFromSeconds" type="text" disabled>
+    </div>
+
+    <div>
+        <h4>Считает разницу между датами.</h4>
+        <div>
+            <label for="fYearInToStamp">Year</label>
+            <input id="fYearInToStamp" type="number">
+            <label for="fMonthInToStamp">Month</label>
+            <input id="fMonthInToStamp" type="number">
+            <label for="fDayInToStamp">Day</label>
+            <input id="fDayInToStamp" type="number">
+        </div>
+        <div style="margin: 6px 0;">
+            <label for="sYearInToStamp">Year</label>
+            <input id="sYearInToStamp" type="number">
+            <label for="sMonthInToStamp">Month</label>
+            <input id="sMonthInToStamp" type="number">
+            <label for="sDayInToStamp">Day</label>
+            <input id="sDayInToStamp" type="number">
+        </div>
+        <input id="taskTen" type="button" value="Convert to Time stamp"
+            onclick="timeStamp.value = getTimeStamp(fYearInToStamp.value,fMonthInToStamp.value,fDayInToStamp.value,sYearInToStamp.value,sMonthInToStamp.value,sDayInToStamp.value)">
+        <input id="timeStamp" type="text" disabled>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
