@@ -98,7 +98,7 @@
 </p></details>
 
 
-<details><summary> 7.JS. </summary><p>
+<details><summary> 7.JS intro. </summary><p>
 
 > - NetScape разработал в 90х , использовался сначала для написания клиентских сценариев
 > - Веб , Десктоп , игры , покрывает все
@@ -118,6 +118,19 @@
 [js intro example](CW/lesson_07/ "CW\lesson_07\")   
 
 [js few functions with time , intro example](HW/lesson_07/script.js "HW\lesson_07\script.js")   
+
+---
+
+</p></details>
+
+
+<details><summary> 7.JS objects , arrays , strings , Math. </summary><p>
+
+---
+
+[js objects , arrays , obj clonning example](CW/lesson_08/objects_arrays/index.js "CW\lesson_08/objects_arrays\index.js")   
+
+[js  example](HW/lesson_08/script.js "HW\lesson_08\script.js")   
 
 ---
 
