@@ -124,14 +124,17 @@
 </p></details>
 
 
-<details><summary> 7.JS objects , arrays , strings , Math. </summary><p>
+<details><summary> 8.JS objects , arrays , strings , Math. </summary><p>
 
 ---
 
 [js objects , arrays , obj clonning example](CW/lesson_08/objects_arrays/index.js "CW\lesson_08/objects_arrays\index.js")   
 
-[js  example](HW/lesson_08/script.js "HW\lesson_08\script.js")   
+[js classes , fraction , time example](HW/lesson_08/week_01/script.js "HW\lesson_08\week_01\script.js")   
+
+[js closure functions , sort() , classes , apply(context) , reduce() , arrays , document.write(generate html) , filter() example](HW/lesson_08/week_02/script.js "HW\lesson_08\week_02\script.js")   
 
 ---
 
 </p></details>
+
