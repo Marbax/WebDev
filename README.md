@@ -128,11 +128,23 @@
 
 ---
 
-[js objects , arrays , obj clonning example](CW/lesson_08/objects_arrays/index.js "CW\lesson_08/objects_arrays\index.js")   
+[js objects , arrays , obj clonning example](CW/lesson_08/objects_arrays/index.js "CW\lesson_08\objects_arrays\index.js")   
 
 [js classes , fraction , time example](HW/lesson_08/week_01/script.js "HW\lesson_08\week_01\script.js")   
 
 [js closure functions , sort() , classes , apply(context) , reduce() , arrays , document.write(generate html) , filter() example](HW/lesson_08/week_02/script.js "HW\lesson_08\week_02\script.js")   
+
+---
+
+</p></details>
+
+<details><summary> 9.JS this , context , bind , json. </summary><p>
+
+---
+
+[js this , context , bind , json example](CW/lesson_09/index.js "CW\lesson_09\index.js")   
+
+[js cleses , html and css generation example](HW/lesson_09/index.js "HW\lesson_09\index.js")   
 
 ---
 
