@@ -1,0 +1,16 @@
+body {
+    background: url(./img/ffield.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+#fBall {
+    position: absolute;
+    transition-duration: 2s;
+    transition-timing-function: ease-in();
+    top: auto;
+    left: auto;
+}

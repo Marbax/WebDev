@@ -150,3 +150,13 @@
 
 </p></details>
 
+<details><summary> 10.JS DOM , Events. </summary><p>
+
+---
+
+[js work with DOM , event listeners example](CW/lesson_09/script.js "CW\lesson_09\script.js")   
+
+---
+
+</p></details>
+
