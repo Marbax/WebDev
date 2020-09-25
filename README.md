@@ -154,7 +154,27 @@
 
 ---
 
-[js work with DOM , event listeners example](CW/lesson_09/script.js "CW\lesson_09\script.js")   
+[js work with DOM , event listeners example](CW/lesson_10/script.js "CW\lesson_10\script.js")   
+
+---
+
+</p></details>
+
+<details><summary> 11.JS promise , async. </summary><p>
+
+---
+
+[js promise , async example](CW/lesson_11/index.js "CW\lesson_11\index.js")   
+
+[js async , fully js , generate html example](HW/lesson_11/dynamycCalendar/index.js "HW\lesson_11\dynamycCalendar\index.js")   
+
+[js events , nice expandable objects example](HW/lesson_11/expandableObjects/index.js "HW\lesson_11\expandableObjects\index.js")   
+
+[js events , async\lazy img loading , gallery carousel example](HW/lesson_11/gallerySlider/index.js "HW\lesson_11\gallerySlider\index.js")   
+
+[js scroll and item size event , async appending new blocks example](HW/lesson_11/newsFeed/index.js "HW\lesson_11\newsFeed\index.js")   
+
+[js nice range wrapper example](HW/lesson_11/scrollBar/index.js "HW\lesson_11\scrollBar\index.js")   
 
 ---
 
