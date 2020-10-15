@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Random String Generator</h1>
+        <div>
+            <div>String should be <input id="stringLength" type="number" required min="1"> characters length</div>
+            <p>Which characters are allowed to occur in the string?</p>
+            <div class="checkBoxContainer">
+                <div>
+                    <input id="numericChk" name="numericChk" type="checkbox">
+                    <label for="numericChk">Numeric digits (0-9)</label>
+                </div>
+                <div>
+                    <input id="uppercaseLettersChk" name="uppercaseLettersChk" type="checkbox">
+                    <label for="uppercaseLettersChk">Uppercase letters (A-Z)</label>
+                </div>
+                <div>
+                    <input id="lowercaseLettersChk" name="lowercaseLettersChk" type="checkbox">
+                    <label for="lowercaseLettersChk">Lowercase letters (a-z)</label>
+                </div>
+            </div>
+            <button id="btnGenString" style="display: none;">Generate</button>
+            <hr>
+            <div>
+                <label for="result"><b>Result: </b></label>
+                <input id="result" name="result" type="text">
+            </div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

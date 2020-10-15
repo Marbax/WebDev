@@ -1,0 +1,58 @@
+:root {
+    --input-padding-x: .75rem;
+    --input-padding-y: .75rem;
+    --input-base-font-size: 1.4rem;
+    --input-expand-content-top: -180px;
+    --input-expand-content-top-start: -260px;
+    --input-main-color: #0abab5;
+    --input-light-color: #fff
+}
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+h2, h3, .text-main-color {
+    color: var(--input-main-color);
+}
+
+.btn-info {
+    background-color: var(--input-main-color) !important;
+}
+
+/*==================================================================================================*/
+
+/*==================================================================================================*/
+
+/*==================================================================================================*/
+
+#services .serviceCard {
+    transition: 1s;
+    border: 1.5px solid #c6ebf7;
+    border-radius: 9px;
+    background-color: var(--input-light-color);
+    min-width: 280px;
+    max-width: 400px;
+}
+
+#services .serviceCard li {
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+#services .serviceCard:hover {
+    transition: .6s;
+    transform: scale(1.2, 1.2);
+    z-index: 1;
+}
+
+#services .serviceCard .cardDescr {
+    font-size: var(--input-base-font-size);
+}
+
+#services .serviceCard button {
+    position: absolute;
+    bottom: 5%;
+    width: 90%;
+}

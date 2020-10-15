@@ -1,0 +1,12 @@
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex > div {
+    margin: 10px;
+    border: 2px solid black;
+    width: 20%;
+    font-size: 24px;
+}

@@ -1,0 +1,61 @@
+:root {
+    --input-movie-short-height: 700px
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.movie-short-cont {
+    border-radius: 10px;
+    padding: 10px 5px;
+    height: var(--input-movie-short-height);
+}
+
+.movie-short-cont .details-btn {
+    position: absolute;
+    bottom: 10px;
+    margin: 5px auto;
+}
+
+.movie-short-cont .movie-poster {
+    height: calc(var(--input-movie-short-height)*.6);
+    position: absolute;
+    display: block;
+    top: 20%;
+    margin-left: -5px;
+}
+
+.movie-short-cont .votes-block {
+    bottom: 10%;
+    position: absolute;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.detailsExp {
+    padding: 5px 15px;
+    width: 50%;
+}
+
+aside {
+    height: 600px;
+    width: 50%;
+    margin: 0;
+}
+
+.border-left-round {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.border-right-round {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}

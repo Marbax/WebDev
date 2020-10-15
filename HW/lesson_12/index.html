@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header id="header" class="d-inline-flex p-2 bg-dark w-100 justify-content-between mb-5">
+        <div class="font-weight-bold">
+            <label class="col-form-label my-2 mr-2 ml-1 text-light font-weight-bolder text-uppercase">Marbax's
+                srch</label>
+        </div>
+        <div>
+            <label for="discYear" class="col-form-label my-2 mr-2 ml-1 text-light font-weight-bold ">Year</label>
+            <select name="discYear" id="discYear" class="bg-dark text-light font-weight-bold my-2 "> </select>
+        </div>
+        <div>
+            <label for="sortType" class="col-form-label my-2 mr-2 ml-1 text-light font-weight-bold ">Sort By</label>
+            <select name="sortType" id="sortType" class="bg-dark text-light font-weight-bold my-2 "> </select>
+        </div>
+        <div>
+            <label for="searchType" class="col-form-label my-2 mr-2 ml-1 text-light font-weight-bold ">Search By</label>
+            <select name="searchType" id="searchType" class="bg-dark text-light font-weight-bold my-2 "> </select>
+        </div>
+        <div>
+            <button id="btnDiscover"
+                class="btn btn-large btn-primary mx-3 my-2 font-weight-bold px-5 py-1">Discover</button>
+        </div>
+        <div>
+            <input name="searchField" id="searchField" type="text">
+            <button id="btnSearch"
+                class="btn btn-large btn-primary font-weight-bold mx-3 my-2 px-5 py-1">Search</button>
+        </div>
+        <div>
+            <select name="pageLanguage" id="pageLanguage" class="bg-dark text-light font-weight-bold my-2 "> </select>
+        </div>
+
+    </header>
+
+
+    <main class="px-3">
+        <div id="modal" class="modal fade" id="modalW" tabindex="-1" role="dialog" aria-labelledby="modalWTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body"> </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sContainer" class="row d-flex justify-content-center"></div>
+    </main>
+
+    <div class="d-flex justify-content-center">
+        <div id="paggingContainer" class="my-5 d-inline-flex justify-content-center">
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -180,3 +180,29 @@
 
 </p></details>
 
+<details><summary> 12.JS Frtch , async , SWAPI. </summary><p>
+
+---
+
+[js fetch , async , swapi example](CW/lesson_12/index.js "CW\lesson_12\index.js")
+
+[js fetch , async , themoviedb api , modal example](HW/lesson_12/index.js "HW\lesson_12\index.js")
+
+---
+
+</p></details>
+
+
+<details><summary> 13.Jquery. </summary><p>
+
+---
+
+[jquery example](CW/lesson_13/index.js "CW\lesson_13\index.js")
+
+[jquery password generator example](HW/lesson_13/passGen/index.js "HW\lesson_13\passGen\index.js")
+
+[jquery sizebale blocks example](HW/lesson_13/respCont/index.js "HW\lesson_13\respCont\index.js")
+
+---
+
+</p></details>

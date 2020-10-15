@@ -1,0 +1,68 @@
+:root {
+    overflow: hidden;
+    --input-separator-size: .5rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+aside {
+    float: left;
+}
+
+#leftPnl, #rightPnl {
+    height: 100%;
+}
+
+#blueBl, #pinkBl, #greenBl, #orangeBl {
+    width: 100%;
+}
+
+#blueBl {
+    background-color: blue;
+}
+
+#pinkBl {
+    background-color: pink;
+}
+
+#greenBl {
+    background-color: green;
+}
+
+#orangeBl {
+    background-color: orange;
+}
+
+.separator {
+    background-color: lightgray;
+    font-size: 2rem;
+    font-weight: bold;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.separator-vertical {
+    width: var(--input-separator-size);
+    cursor: pointer;
+    height: 100%;
+}
+
+.separator-vertical>p {
+    position: absolute;
+    margin-left: -.1rem;
+    top: 45%;
+}
+
+.separator-horizontal {
+    height: var(--input-separator-size);
+    cursor: row-resize;
+}
+
+.separator-horizontal>p {
+    position: absolute;
+    margin-top: -.95rem;
+}

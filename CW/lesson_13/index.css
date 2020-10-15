@@ -1,0 +1,25 @@
+#someDiv {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    line-height: 100px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#boyan {
+    width: 200px;
+}
+
+#boyan .card {
+    background-color:lightgreen;
+}
+
+#boyan .card .header {
+    border: 2px solid black;
+}
+
+#boyan .card .content {
+    background-color: lightsalmon;
+    display: none;
+}
