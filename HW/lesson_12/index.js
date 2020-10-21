@@ -17,7 +17,7 @@ class MovieApi {
     static noImgPH = 'img/noImg.png'
 
     static getDiscoverUrl(page) {
-        this.lastQuery = `${this._apiUrl}discover/${searchSelect.value}?api_key=${this._apiKey}&language=${langSelect.value}&sort_by=${sortSelect.value}&page=${page}&year=${discYear.value}`
+        this.lastQuery = `${this._apiUrl}discover/${searchSelect.value}?api_key=${this._apiKey}&language=${langSelect.value}&sort_by=${sortSelect.value}&page=${page}&primary_release_year=${discYear.value}`
         this.lastPageId = page
         this.lastSearchedType = searchSelect.value
         return this.lastQuery
@@ -328,8 +328,6 @@ class DetailedSeries extends BaseMovieObj {
     }
 
     async makeSeriesDetailsBlock() {
-
-        console.log(this);
 
         let div = document.createElement('div')
         div.classList.add('d-flex')
