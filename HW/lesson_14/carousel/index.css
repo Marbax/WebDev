@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =========================_CAROUSEL_BEGIN_============================= */
+
+:root {
+    --input-main-color: #7B9E87;
+    --input-secondary-color: #2E382E;
+    --input-nav-size: 2.5rem;
+    --input-outer-border-radius: .5rem;
+}
+
+.carousel {
+    user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+    background-color: var(--input-secondary-color);
+    border-top-left-radius: var(--input-outer-border-radius);
+    border-top-right-radius: var(--input-outer-border-radius);
+}
+
+.carousel-minimized {
+    position: relative;
+    width: 40rem;
+    height: 30rem;
+    -webkit-box-shadow: 5px 5px 40px 0px var(--input-secondary-color);
+    -moz-box-shadow: 5px 5px 40px 0px var(--input-secondary-color);
+    box-shadow: 5px 5px 40px 0px var(--input-secondary-color);
+}
+
+.carousel-maximized {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+}
+
+.carousel .img-container {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    padding: .5rem;
+}
+
+.carousel .img-container .slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.carousel .pagging-container, .carousel .ops-container {
+    width: 100%;
+    padding: 0;
+    background-color: inherit;
+    border-top: .1rem solid var(--input-main-color);
+}
+
+.carousel .pagging-container {
+    display: flex;
+    justify-content: center;
+    height: 1rem;
+}
+
+.carousel .pagging-container .pagging-item {
+    width: .5rem;
+    height: .5rem;
+    border: .1rem solid var(--input-main-color);
+    margin: .2rem;
+    border-radius: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carousel .pagging-container .pagging-item {
+    transition: .4s;
+    opacity: .6;
+}
+
+.carousel .pagging-container .pagging-item:hover {
+    transition: .4s;
+    opacity: 1;
+}
+
+.carousel .pagging-container .active {
+    background-color: var(--input-main-color);
+}
+
+.carousel .ops-container {
+    border-bottom-left-radius: var(--input-outer-border-radius);
+    border-bottom-right-radius: var(--input-outer-border-radius);
+}
+
+.carousel .ops-container .not-displayed {
+    display: none !important;
+}
+
+.carousel .ops-container .nav-btn-container {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    width: min-content;
+}
+
+.carousel .ops-container .nav-btn {
+    width: var(--input-nav-size);
+    height: var(--input-nav-size);
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    margin: .3rem;
+    cursor: pointer;
+    color: var(--input-main-color);
+    fill: var(--input-main-color);
+}
+
+.carousel .ops-container .nav-btn {
+    transition: .4s;
+    opacity: .7;
+}
+
+.carousel .ops-container .nav-btn svg {
+    width: inherit;
+    height: inherit;
+}
+
+.carousel .ops-container .nav-btn:not(.nav-disabled):hover {
+    transition: .4s;
+    opacity: 1;
+}
+
+.carousel .ops-container .nav-disabled {
+    opacity: .2;
+    cursor: default;
+}
+
+.carousel .ops-container .nav-to-prev, .carousel .ops-container .nav-to-start {
+    transform: rotate(180deg);
+}
+
+.carousel .ops-container .nav-minimize, .carousel .ops-container .nav-maximize, .carousel .ops-container .file-input-container {
+    position: relative;
+    float: right;
+}
+
+/* Custom file input*/
+
+.file-input-container {
+    display: inline-block;
+    margin: .6rem;
+}
+
+.img-upload {
+    display: inline-block;
+    margin: auto 0;
+    overflow: hidden;
+    width: 4rem;
+}
+
+.img-upload:active, .img-upload:focus {
+    border: none !important;
+}
+
+.img-upload::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.img-upload::file-selector-button {
+    visibility: hidden;
+}
+
+.img-upload::before {
+    content: 'Files';
+    display: inline-block;
+    background: transparent;
+    border-radius: 1rem;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--input-main-color);
+}
+
+/* ==========================_CAROUSEL_END_============================== */

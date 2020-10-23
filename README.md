@@ -206,3 +206,13 @@
 ---
 
 </p></details>
+
+<details><summary> 14.. </summary><p>
+
+---
+
+[sizeable iamge viewer ,pagging ,slideshow ,js anumation](HW/lesson_14/carousel "HW\lesson_14\carousel")
+
+---
+
+</p></details>
