@@ -216,3 +216,42 @@
 ---
 
 </p></details>
+
+<details><summary> 15.React. </summary><p>
+
+[react documentation](https://ru.reactjs.org/docs/create-a-new-react-app.html "ru.reactjs.org")
+
+[React native , react for mobile dev](https://reactnative.dev/ "https://reactnative.dev/")
+
+```
+npx create-react-app 'name'
+npm install
+```
+
+>Angular using type script
+>U can also use it with React
+>There is 'babel' compiller to translate tp in sj in real time
+>yarn (pm) - faster then npm
+>Fluuter (datrt)  - framerwork for mobile dev
+
+---
+
+[React example](CW/lesson_15/reactDemo/demo "CW\lesson_15\reactDemo\demo")
+
+[weatherbit api in react realization](HW/lesson_15/weather_forecast "HW\lesson_15\weather_forecast")
+
+---
+
+</p></details>
+
+<details><summary> 15.Web pack. </summary><p>
+
+---
+
+[React example](CW/lesson_16/webpack_sample "CW\lesson_16\webpack_sample")
+
+[base react app](HW/lesson_16/base_example "HW\lesson_16\base_example")
+
+---
+
+</p></details>

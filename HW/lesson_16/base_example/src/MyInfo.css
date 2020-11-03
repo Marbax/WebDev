@@ -1,0 +1,25 @@
+.myInfo {
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+.myInfo h1, .myInfo ul {
+  color: brown;
+}
+
+.myInfo h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.myInfo p,.myInfo li,.myInfo ul {
+  color: chocolate;
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+.myInfo li {
+  color: burlywood;
+  margin-left: 1rem;
+}
