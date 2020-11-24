@@ -267,3 +267,15 @@ npm install react-redux
 ---
 
 </p></details>
+
+<details><summary> 17.React Redax. </summary><p>
+
+---
+
+[React forms , api example](CW/lesson_18/forms_fetch_api 'CW\\lesson_18\forms_fetch_api')
+
+[React , bootstrap components, forms](HW/lesson_18/forms_demo 'HW\\lesson_18\forms_demo')
+
+---
+
+</p></details>

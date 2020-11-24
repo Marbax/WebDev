@@ -1,0 +1,112 @@
+:root {
+    --input-main-color: #001529f5;
+    --input-second-color: #f0f2f5;
+    --input-third-color: #a6a7a8;
+}
+
+*::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px var(--input-third-color);
+    background: var(--input-main-color);
+}
+
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--input-main-color);
+    border-radius: 0;
+    background: var(--input-main-color);
+}
+
+.site-page-header {
+    padding: 0.4rem;
+    border-bottom: 1rem solid var(--input-main-color);
+}
+
+.scrollable {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.sider {
+    width: max-content;
+}
+
+.main-layout {
+    height: 100vh;
+}
+
+.search-box {
+    width: 25rem;
+}
+
+.content-layout {
+    background-color: var(--input-main-color);
+}
+
+.sider-menu,
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    color: #697480;
+    padding: 1rem;
+}
+
+.details-block {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: auto;
+    color: var(--input-second-color);
+}
+
+.details-header {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--input-third-color);
+}
+.details-pair-container {
+    margin-top: 1rem;
+}
+
+.details-pair-item {
+    margin: 2rem;
+}
+.details-single-item {
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    * {
+        font-size: 1rem;
+    }
+    .sider {
+        width: 40vw !important;
+        flex: 0 0 30vw !important;
+        max-width: 30vw !important;
+        min-width: 30vw !important;
+        width: 30vw !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    * {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .details-block {
+        text-align: left;
+        padding: 1rem;
+    }
+    .details-block * {
+        display: block;
+        margin: 1rem 0 0 0;
+    }
+    .details-header {
+        font-size: 1.5rem;
+    }
+}
